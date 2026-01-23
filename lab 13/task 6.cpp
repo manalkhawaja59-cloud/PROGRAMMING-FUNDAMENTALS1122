@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int num = 42;
-    
+
     void* ptr;      
     ptr = &num;    
 

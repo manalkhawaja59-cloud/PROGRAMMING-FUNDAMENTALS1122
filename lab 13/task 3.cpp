@@ -2,8 +2,12 @@
 using namespace std;
 int main(){
 	int arr[]={1,2,3,4,5};
-	int*ptr =arr;
+	int *ptr;
+	ptr=arr;
 	cout<<"elements of the arrays are :";
-	cout<<ptr[0]<<" "<<ptr[1]<<" "<<ptr[2]<<" "<<ptr[3]<<" "<<ptr[4]<<" "<<endl;
-   return 0;
+	for(int i=0;i<5;i++){
+		cout<<*ptr<<" ";
+		ptr++;
+	}
+
 }
